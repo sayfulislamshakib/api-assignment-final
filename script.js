@@ -32,7 +32,6 @@ const showDetails = (name) => {
 			const item = data.meals[0];
 			container.innerHTML = `
             <div class = "detail-modal">
-                <p class = "detail-back" onclick="hideDetails()">&larr; Go Back </p>
                 <div class="detail-img-container">
                     <img class="detail-img" src="${item.strMealThumb}" alt="">
                 </div>
@@ -60,6 +59,7 @@ const showDetails = (name) => {
                     <li class="detai-li">${item.strIngredient19}</li>
                     <li class="detai-li">${item.strIngredient20}</li>
                 </ul>
+                <p class = "detail-back" onclick="hideDetails()">&larr; Go Back </p>
             </div>
             `;
 		});
