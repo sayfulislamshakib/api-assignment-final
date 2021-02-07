@@ -64,10 +64,10 @@ const showDetails = (name) => {
             `;
 		});
 };
-
+//show the detail manu
 const btn = document.getElementById("basic-addon2");
 btn.addEventListener("click", showFood);
-
+//hide the detail information
 const hideDetails = () => {
 	document.querySelector(".detail-modal").style.display = "none";
 };
