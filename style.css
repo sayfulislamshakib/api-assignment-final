@@ -1,0 +1,110 @@
+/* nav bar style */
+nav {
+	height: 60px;
+}
+/* nav bar image style */
+nav img {
+	height: 50px;
+}
+/* search box background color */
+.bg-color {
+	background-color: #f06c4e;
+}
+/* second addon style */
+#basic-addon2 {
+	cursor: pointer;
+}
+/* food items style */
+#food-items {
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+}
+/* food box popup style */
+.food-box {
+	flex-basis: 250px;
+	margin: 15px;
+	border-radius: 10px;
+	text-align: center;
+	overflow: hidden;
+	box-shadow: 2px 2px 12px #00000026;
+	cursor: pointer;
+}
+/* food icon style */
+.food-icon {
+	object-fit: cover;
+}
+/* food image style */
+.food-icon img {
+	width: 100%;
+	height: auto;
+}
+/* food name style */
+.food-name {
+	padding: 10px 0;
+}
+/* main container style */
+.container {
+	position: relative;
+}
+/* details id style */
+#details {
+	position: absolute;
+	top: 0;
+	margin: 0 auto;
+	width: 100%;
+	height: auto;
+}
+/* detail model style */
+.detail-modal {
+	position: fixed;
+	height: auto;
+	width: 300px;
+	background: #ffffff;
+	left: 50%;
+	transform: translate(-50%, -40px) scale(0.9);
+	border-radius: 10px;
+	box-shadow: 2px 2px 12px #0000004d;
+}
+/* back button style */
+.detail-back {
+	padding: 5px;
+	margin: 10px auto;
+	width: 50%;
+	background-color: #3a3a3a;
+	text-align: center;
+	color: #ffffff;
+	font-size: 20px;
+	border-radius: 4px;
+	cursor: pointer;
+	font-weight: bold;
+}
+/* detail imgage container */
+.detail-img-container {
+	text-align: center;
+}
+/* detail image style */
+.detail-img {
+	width: 100%;
+	padding: 10px;
+	border-radius: 10px;
+}
+/* detail first text style */
+.detail-heading {
+	font-weight: bold;
+	margin-left: 10px;
+}
+/* detail second text style */
+.detail-heading-2 {
+	margin-left: 10px;
+}
+/* detail unorder list style */
+.detail-ul {
+	list-style: none;
+}
+/* detail list style */
+.detail-ul li {
+	margin: 0;
+	padding: 0;
+}
