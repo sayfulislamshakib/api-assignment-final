@@ -1,3 +1,6 @@
+* {
+	font-family: "Poppins", sans-serif;
+}
 /* nav bar style */
 nav {
 	height: 60px;
@@ -60,11 +63,11 @@ nav img {
 .detail-modal {
 	position: fixed;
 	height: auto;
-	width: 300px;
+	width: 500px;
 	background: #ffffff;
 	left: 50%;
 	transform: translate(-50%, -40px) scale(0.9);
-	border-radius: 10px;
+	border-radius: 20px;
 	box-shadow: 2px 2px 12px #0000004d;
 }
 /* back button style */
@@ -86,24 +89,34 @@ nav img {
 }
 /* detail image style */
 .detail-img {
-	width: 100%;
-	padding: 10px;
+	width: 75%;
+	height: 50%;
+	padding-top: 10px;
 }
 /* detail first text style */
-.detail-heading {
+.detail-text-1 {
+	text-align: center;
 	font-weight: bold;
+	font-size: 30px;
 	margin-left: 10px;
 }
 /* detail second text style */
-.detail-heading-2 {
+.detail-text-2 {
+	text-align: center;
 	margin-left: 10px;
 }
 /* detail unorder list style */
 .detail-ul {
+	height: 200px;
+	width: 100%;
+	background-color: #fafafa;
 	list-style: none;
+	overflow: hidden;
+	overflow-y: scroll;
 }
 /* detail list style */
 .detail-ul li {
+	font-size: 20px;
 	margin: 0;
 	padding: 0;
 }

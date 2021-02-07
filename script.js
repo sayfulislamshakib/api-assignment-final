@@ -34,9 +34,11 @@ const showDetails = (name) => {
             <div class = "detail-modal">
                 <div class="detail-img-container">
                     <img class="detail-img" src="${item.strMealThumb}" alt="">
+                    <hr>
                 </div>
-                <h2 class="detail-heading">${item.strMeal}</h2>
-                <h5 class="detail-heading-2">Ingredients</h5>
+                <h2 class="detail-text-1">${item.strMeal}</h2>
+                <hr>
+                <h5 class="detail-text-2">Ingredients</h5>
                 <ul class="detail-ul">
                     <li class="detai-li">${item.strIngredient1}</li>
                     <li class="detai-li">${item.strIngredient2}</li>
